@@ -64,6 +64,7 @@ export default class SveltyPicker extends SvelteComponentTyped<{
     input: Event;
     change: CustomEvent<any>;
     mousedown: MouseEvent;
+    close: CustomEvent<any>;
     blur: CustomEvent<any>;
 } & {
     [evt: string]: CustomEvent<any>;
@@ -111,6 +112,7 @@ declare const __propDef: {
         input: Event;
         change: CustomEvent<any>;
         mousedown: MouseEvent;
+        close: CustomEvent<any>;
         blur: CustomEvent<any>;
     } & {
         [evt: string]: CustomEvent<any>;

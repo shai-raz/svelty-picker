@@ -157,6 +157,7 @@
     startView = MODE_MONTH;
     if (!pickerOnly) pickerVisible = false;
     if (resolvedMode !== 'time') currentMode = "date";
+    dispatch("close");
   }
 
   /** 

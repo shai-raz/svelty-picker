@@ -1,5 +1,5 @@
 {
-  "name": "svelty-picker",
+  "name": "svelty-picker-raz",
   "description": "Sweet date/time picker written in svelte",
   "version": "3.4.3",
   "scripts": {
@@ -30,5 +30,8 @@
     "vite": "^3.0.0",
     "windicss": "^3.5.6"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "svelte2tsx": "^0.6.2"
+  }
 }
