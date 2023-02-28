@@ -1,3 +1,8 @@
+# A fork of [Svelty Picker](https://github.com/mskocik/svelty-picker)
+- Added the close "close" event.  
+&nbsp;
+
+
 # 📆 Svelty Picker [![NPM version](https://img.shields.io/github/package-json/v/mskocik/svelty-picker/main?label=version&logoColor=g)](https://www.npmjs.org/package/svelty-picker)
 
 Simple date & time picker implemented in svelte. 
@@ -164,7 +169,7 @@ Component emits `input`, `change` and `blur` events.
 
 - `input` is dispatched on `<input>` element therefore you can get current value like from every native event:
 - `change` event is using Svelte's `eventDispatcher`, therefore triggered event contains `detail` property
-
+- `close` when the datepicker is supposed to close (used for `pickerOnly = true`)
 ```js
 <script>
 function onInput(event) {
